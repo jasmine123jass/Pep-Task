@@ -1,0 +1,64 @@
+.enrollment-container{
+
+    width:70%;
+    max-width:700px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.enrollment-container h1{
+
+    text-align:center;
+
+    color:#2563eb;
+
+    margin-bottom:25px;
+
+}
+
+.enrollment-container form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.enrollment-container input,
+
+.enrollment-container select{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+}
+
+.enrollment-container button{
+
+    padding:14px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
